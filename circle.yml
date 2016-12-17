@@ -7,7 +7,7 @@ machine:
   # Version of ruby to use
   ruby:
     version:
-      ruby 2.3.1p112
+      ruby-2.3.1p112
 
 ## Customize test commands
 test:

@@ -1,0 +1,15 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    America/Los_Angeles # Set the timezone
+
+  # Version of ruby to use
+  ruby:
+    version:
+      ruby 2.3.1p112
+
+## Customize test commands
+test:
+  post:
+    - bundle exec rake spec
